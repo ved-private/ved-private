@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <img src="assets/hero.svg" alt="Vedraj Doifode" width="100%"/>
 
