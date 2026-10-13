@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 214" width="360" height="214" role="img" aria-label="Civic Tracker">
+<defs>
+<linearGradient id="b" x1="0" y1="0" x2=".6" y2="0" spreadMethod="reflect"><stop offset="0" stop-color="#ff6b35"/><stop offset=".5" stop-color="#ff1e3c"/><stop offset="1" stop-color="#ff6b35"/><animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1.2 0" dur="2.2s" repeatCount="indefinite"/></linearGradient>
+<linearGradient id="i" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff6b35"/><stop offset="1" stop-color="#ff1e3c"/></linearGradient>
+<radialGradient id="gl" cx=".15" cy=".1" r=".9"><stop offset="0" stop-color="#ff6b35" stop-opacity=".28"/><stop offset="1" stop-color="#ff6b35" stop-opacity="0"/></radialGradient>
+<linearGradient id="sw" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="cp"><rect x="3" y="3" width="354" height="202" rx="18"/></clipPath>
+<style>.bob{animation:bob 3s ease-in-out infinite}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+.pu{animation:pu 1.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes pu{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(1.7)}}
+.ar{animation:ar .8s ease-in-out infinite}@keyframes ar{0%,100%{transform:translateX(0)}50%{transform:translateX(8px)}}
+.sw{animation:sw 3.2s ease-in-out infinite}@keyframes sw{0%{transform:translateX(-160px) skewX(-20deg)}60%,100%{transform:translateX(420px) skewX(-20deg)}}</style></defs>
+<g class="bob" transform="translate(0,6)">
+<rect x="3" y="3" width="354" height="202" rx="18" fill="#100608"/><rect x="3" y="3" width="354" height="202" rx="18" fill="url(#gl)"/>
+<g clip-path="url(#cp)"><rect class="sw" x="0" y="0" width="90" height="214" fill="url(#sw)"/>
+<path d="M290,0 l22,0 l-40,214 l-22,0z M320,0 l10,0 l-40,214 l-10,0z" fill="#ff6b35" opacity=".16"/></g>
+<rect x="3" y="3" width="354" height="202" rx="18" fill="none" stroke="url(#b)" stroke-width="2"/>
+<g transform="translate(46,48)"><circle r="24" fill="url(#i)"/><path d="M0,16 C-13,1 -13,-15 0,-15 C13,-15 13,1 0,16Z" fill="none" stroke="#fff" stroke-width="2"/><circle cy="-5" r="4.5" fill="none" stroke="#fff" stroke-width="2"/></g>
+<text x="82" y="46" style="font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-size:22px;font-weight:800;fill:#fff4f5">Civic Tracker</text>
+<g transform="translate(336,0)"><rect x="-98" y="22" width="98" height="22" rx="11" fill="#ffb703" fill-opacity=".12" stroke="#ffb703" stroke-opacity=".55"/>
+<circle class="pu" cx="-84" cy="33" r="3.5" fill="#ffb703"/><text x="-41.0" y="37" text-anchor="middle" style="font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;font-size:10px;font-weight:700;fill:#ffb703">BUILDING</text></g>
+<text x="24" y="100" style="font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-size:14.5px;fill:#b79097">Report potholes, garbage &amp; dead lights</text>
+<text x="24" y="122" style="font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-size:14.5px;fill:#b79097">with a photo and a pin on the map.</text>
+<g transform="translate(24.0,148)"><rect width="52.0" height="22" rx="11" fill="#ff6b35" fill-opacity=".12" stroke="#ff6b35" stroke-opacity=".55"/><text x="26.0" y="15" text-anchor="middle" style="font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;font-size:11px;fill:#fbe9ec">React</text></g><g transform="translate(83.0,148)"><rect width="45.2" height="22" rx="11" fill="#ff6b35" fill-opacity=".12" stroke="#ff6b35" stroke-opacity=".55"/><text x="22.6" y="15" text-anchor="middle" style="font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;font-size:11px;fill:#fbe9ec">Vite</text></g><g transform="translate(135.2,148)"><rect width="72.4" height="22" rx="11" fill="#ff6b35" fill-opacity=".12" stroke="#ff6b35" stroke-opacity=".55"/><text x="36.2" y="15" text-anchor="middle" style="font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;font-size:11px;fill:#fbe9ec">Firebase</text></g><g transform="translate(214.6,148)"><rect width="65.6" height="22" rx="11" fill="#ff6b35" fill-opacity=".12" stroke="#ff6b35" stroke-opacity=".55"/><text x="32.8" y="15" text-anchor="middle" style="font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;font-size:11px;fill:#fbe9ec">Leaflet</text></g>
+<text x="24" y="190" style="font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;font-size:12px;fill:#ff1e3c">floor it</text><text class="ar" x="86" y="190" style="font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;font-size:12px;fill:#ff1e3c">»</text>
+</g></svg>
