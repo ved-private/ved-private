@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 290" width="360" height="290" role="img" aria-label="FlightWise: flight price comparison and booking advisor">
+<defs>
+<style>
+text{white-space:pre}
+.sans{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+.mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+.sheen{animation:sheen 7s ease-in-out infinite}
+@keyframes sheen{0%,55%{transform:translateX(-420px)}85%,100%{transform:translateX(420px)}}
+.pulse{animation:pulse 1.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(1.5)}}
+.cta{animation:cta 2.4s ease-in-out infinite}
+@keyframes cta{0%,100%{transform:translateX(0)}50%{transform:translateX(4px)}}
+</style>
+<linearGradient id="fw-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b0a10"/><stop offset="1" stop-color="#08030a"/></linearGradient>
+<radialGradient id="fw-glow" cx=".85" cy=".08" r=".7"><stop offset="0" stop-color="#ffb703" stop-opacity=".30"/><stop offset="1" stop-color="#ffb703" stop-opacity="0"/></radialGradient>
+<linearGradient id="fw-bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffb703"/><stop offset=".55" stop-color="#4a0710"/><stop offset="1" stop-color="#ff1e3c"/></linearGradient>
+<linearGradient id="fw-ic" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffb703"/><stop offset="1" stop-color="#ff7a18"/></linearGradient>
+<linearGradient id="fw-sh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".09"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="fw-clip"><rect x="1.5" y="1.5" width="357" height="287" rx="20"/></clipPath>
+<linearGradient id="fw-ic" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffb703"/><stop offset="1" stop-color="#ff7a18"/></linearGradient>
+</defs>
+<rect x="1.5" y="1.5" width="357" height="287" rx="20" fill="url(#fw-bg)"/>
+<g clip-path="url(#fw-clip)">
+<rect width="360" height="290" fill="url(#fw-glow)"/>
+<g class="sheen"><path d="M150 0H210L120 290H60Z" fill="url(#fw-sh)"/></g>
+<rect x="0" y="286" width="360" height="4" fill="#ff1e3c" opacity=".85"/>
+<!-- header -->
+<circle cx="40" cy="40" r="19" fill="url(#fw-ic)"/>
+<g transform="translate(40 40)" fill="#fff"><path d="M-12 2L-2 0L-6 -10L-3 -10L5 -1L12 -3C14.5 -3 14.5 2.5 12 2.5L5 1.2L-3 11L-6 11L-2 2.2Z" transform="rotate(-18)"/></g>
+<text class="sans" x="68" y="47" font-size="23" font-weight="800" fill="#fff">FlightWise</text>
+<rect x="248" y="26" width="92" height="25" rx="12.5" fill="#ffb703" fill-opacity=".12" stroke="#ffb703" stroke-opacity=".6"/>
+<circle class="pulse" cx="262" cy="38.5" r="3.4" fill="#ffb703"/>
+<text class="mono" x="270" y="43" font-size="11" font-weight="700" fill="#ffb703">PYTHON</text>
+<!-- illustration frame -->
+<rect x="18" y="68" width="324" height="128" rx="14" fill="#fff" fill-opacity=".03" stroke="#ffb703" stroke-opacity=".28"/>
+<path d="M40 156Q92 84 144 156" fill="none" stroke="#3a2a10" stroke-width="2.4" stroke-dasharray="3 5"/><path d="M40 156Q92 84 144 156" fill="none" stroke="url(#fw-ic)" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="130" stroke-dashoffset="130"><animate attributeName="stroke-dashoffset" values="130;0;0;130" keyTimes="0;.55;.9;1" dur="5s" repeatCount="indefinite"/></path><circle cx="40" cy="156" r="5" fill="#ffb703"/><circle cx="144" cy="156" r="5" fill="#ffb703"/><text class="mono" x="40" y="176" font-size="10.5" font-weight="700" text-anchor="middle" fill="#ffd98a">DEL</text><text class="mono" x="144" y="176" font-size="10.5" font-weight="700" text-anchor="middle" fill="#ffd98a">BOM</text><g><animateMotion dur="5s" repeatCount="indefinite" rotate="auto" keyPoints="0;1;1" keyTimes="0;.55;1" calcMode="linear" path="M40 156Q92 84 144 156"/><path d="M-9 0L-3 -1.4L-6 -8L-3.4 -8L2 -1.8L8 -3C10 -3 10 3 8 3L2 1.8L-3.4 8L-6 8L-3 1.4Z" fill="#fff" stroke="#ffb703" stroke-width=".8"/></g><text class="mono" x="170" y="113" font-size="10" fill="#ffe2a1">IndiGo</text><rect x="228" y="104" width="102" height="11" rx="5.5" fill="#2a1f0e"/><rect x="228" y="104" width="102" height="11" rx="5.5" fill="url(#fw-ic)" style="transform-box:fill-box;transform-origin:left"><animateTransform attributeName="transform" type="scale" values="0.647 1;0.588 1;0.647 1;0.647 1" keyTimes="0;.33;.66;1" dur="5s" repeatCount="indefinite"/></rect><g><rect x="262" y="80" width="66" height="16" rx="8" fill="#ffb703"><animate attributeName="opacity" values="1;.55;1" dur="1.6s" repeatCount="indefinite"/></rect><text class="mono" x="295" y="91.4" font-size="9" font-weight="800" text-anchor="middle" fill="#2b1800">cheapest</text></g><text class="mono" x="170" y="142" font-size="10" fill="#b9a58a">Vistara</text><rect x="228" y="133" width="102" height="11" rx="5.5" fill="#2a1f0e"/><rect x="228" y="133" width="102" height="11" rx="5.5" fill="#6d5b3e" style="transform-box:fill-box;transform-origin:left"><animateTransform attributeName="transform" type="scale" values="0.843 1;0.902 1;0.843 1;0.843 1" keyTimes="0;.33;.66;1" dur="5s" repeatCount="indefinite"/></rect><text class="mono" x="170" y="171" font-size="10" fill="#b9a58a">Air India</text><rect x="228" y="162" width="102" height="11" rx="5.5" fill="#2a1f0e"/><rect x="228" y="162" width="102" height="11" rx="5.5" fill="#6d5b3e" style="transform-box:fill-box;transform-origin:left"><animateTransform attributeName="transform" type="scale" values="0.980 1;0.922 1;0.980 1;0.980 1" keyTimes="0;.33;.66;1" dur="5s" repeatCount="indefinite"/></rect>
+<!-- copy -->
+<text class="sans" x="20" y="220" font-size="13.2" fill="#d9bcc2">Compare flight prices across airlines</text>
+<text class="sans" x="20" y="238" font-size="13.2" fill="#d9bcc2">and find the smartest time to book.</text>
+<rect x="20" y="248" width="62.4" height="22" rx="11" fill="#ffb703" fill-opacity=".10" stroke="#ffb703" stroke-opacity=".55"/><text class="mono" x="51.2" y="263" font-size="11" text-anchor="middle" fill="#f3dde0">Python</text><rect x="90.4" y="248" width="62.4" height="22" rx="11" fill="#ffb703" fill-opacity=".10" stroke="#ffb703" stroke-opacity=".55"/><text class="mono" x="121.6" y="263" font-size="11" text-anchor="middle" fill="#f3dde0">Pandas</text><rect x="160.8" y="248" width="84.6" height="22" rx="11" fill="#ffb703" fill-opacity=".10" stroke="#ffb703" stroke-opacity=".55"/><text class="mono" x="203.1" y="263" font-size="11" text-anchor="middle" fill="#f3dde0">Streamlit</text>
+
+</g>
+<rect x="1.5" y="1.5" width="357" height="287" rx="20" fill="none" stroke="url(#fw-bd)" stroke-width="2"/>
+</svg>
