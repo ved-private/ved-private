@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 48" width="1000" height="48">
+<defs><filter id="g" x="-10%" y="-100%" width="120%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="f" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".08" stop-color="#fff"/><stop offset=".92" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="m"><rect width="1000" height="48" fill="url(#f)"/></mask>
+<style>.e{stroke-dasharray:130 870;animation:e 2.4s linear infinite}@keyframes e{from{stroke-dashoffset:130}to{stroke-dashoffset:-870}}</style></defs>
+<g mask="url(#m)"><path d="M20 24 H150 l8 0 l7 -9 l7 9 h20 l7 5 l12 -30 l12 44 l9 -19 h50 H430 l8 0 l7 -9 l7 9 h20 l7 5 l12 -30 l12 44 l9 -19 h50 H700 l8 0 l7 -9 l7 9 h20 l7 5 l12 -30 l12 44 l9 -19 h50 H980" fill="none" stroke="#5a0b16" stroke-width="2"/>
+<path class="e" pathLength="1000" d="M20 24 H150 l8 0 l7 -9 l7 9 h20 l7 5 l12 -30 l12 44 l9 -19 h50 H430 l8 0 l7 -9 l7 9 h20 l7 5 l12 -30 l12 44 l9 -19 h50 H700 l8 0 l7 -9 l7 9 h20 l7 5 l12 -30 l12 44 l9 -19 h50 H980" fill="none" stroke="#ff1e3c" stroke-width="3" stroke-linecap="round" filter="url(#g)"/></g></svg>
