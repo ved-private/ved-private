@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Studying B.Tech CSE at Ramdeobaba University, Nagpur. Building Figma designs into Next.js apps. Into design systems, motion and helpful AI. Next: designer-developer, learning with builders at GDG RBU.">
+<defs><style>
+text{white-space:pre}
+.sans{font-family:'Arial Black','Helvetica Neue',Impact,'Segoe UI',Arial,sans-serif;font-weight:900}
+.mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace}
+.body{font-family:'Helvetica Neue','Segoe UI',Arial,sans-serif;font-weight:400}
+.cur{animation:cur 1s steps(2,end) infinite}@keyframes cur{0%{opacity:1}50%{opacity:0}}
+</style><filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="4" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter></defs>
+<rect x="12" y="12" width="986" height="276" fill="#ff1e3c"/>
+<rect x="2" y="2" width="986" height="276" fill="#0a0204" stroke="#f3dde0" stroke-width="4"/>
+<path d="M495 28V252M30 140H960" stroke="#7d5d63" stroke-width="2" stroke-dasharray="6 7" fill="none"/>
+<rect x="30" y="34" width="12" height="12" fill="#ff1e3c"/>
+<rect x="523" y="34" width="12" height="12" fill="#ff1e3c"/>
+<rect x="30" y="156" width="12" height="12" fill="#ff1e3c"/>
+<rect x="523" y="156" width="12" height="12" fill="#ff1e3c"/>
+<text class="mono" x="54" y="46" font-size="14" font-weight="700" fill="#b3949a">studying</text>
+<text class="sans" x="30" y="90" font-size="26" fill="#ffffff">B.Tech CSE</text>
+<text class="body" x="30" y="118" font-size="16" fill="#f3dde0">Ramdeobaba University, Nagpur</text>
+<text class="mono" x="547" y="46" font-size="14" font-weight="700" fill="#b3949a">building</text>
+<text class="sans" x="523" y="90" font-size="26" fill="#ffffff">Figma to Next.js</text>
+<text class="body" x="523" y="118" font-size="16" fill="#f3dde0">Design the screen, then ship it live</text>
+<text class="mono" x="54" y="168" font-size="14" font-weight="700" fill="#b3949a">into</text>
+<text class="sans" x="30" y="212" font-size="26" fill="#ffffff">Systems and motion</text>
+<text class="body" x="30" y="240" font-size="16" fill="#f3dde0">Design systems, plus AI that makes apps more helpful</text>
+<text class="mono" x="547" y="168" font-size="14" font-weight="700" fill="#b3949a">next</text>
+<text class="sans" x="523" y="212" font-size="26" fill="#ffffff">Designer-developer</text>
+<text class="body" x="523" y="240" font-size="16" fill="#f3dde0">Learning with builders at GDG RBU</text>
+<rect class="cur" x="940" y="226" width="14" height="20" fill="#ff1e3c"/>
+<rect x="2" y="2" width="986" height="276" filter="url(#grain)" opacity=".08"/>
+</svg>
