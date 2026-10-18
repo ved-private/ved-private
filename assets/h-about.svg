@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" width="1000" height="100" role="img" aria-label="ABOUT">
+<defs><style>
+text{white-space:pre}
+.sans{font-family:'Arial Black','Helvetica Neue',Impact,'Segoe UI',Arial,sans-serif;font-weight:900}
+.mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace}
+.r0,.r1,.r2{animation:fall linear infinite}
+.r0{animation-duration:.6s}.r1{animation-duration:.78s}.r2{animation-duration:.95s}
+@keyframes fall{from{transform:translate(0,-60px)}to{transform:translate(-80px,560px)}}
+.g{transform-box:fill-box;transform-origin:50% 100%;animation:sway ease-in-out infinite alternate}
+.g0{animation-duration:1.5s}.g1{animation-duration:1.9s}.g2{animation-duration:2.3s}.g3{animation-duration:2.8s}
+@keyframes sway{from{transform:rotate(-8deg)}to{transform:rotate(8deg)}}
+.sp{opacity:0;animation:sp .9s ease-out infinite}
+@keyframes sp{0%{opacity:0;transform:scale(.4)}25%{opacity:.9}100%{opacity:0;transform:scale(1.6)}}
+.st0{animation:tw 3.2s ease-in-out infinite}.st1{animation:tw 4.1s ease-in-out -1.3s infinite}.st2{animation:tw 2.6s ease-in-out -.7s infinite}
+@keyframes tw{0%,100%{opacity:.2}50%{opacity:1}}
+
+.cur{animation:cur 1s steps(2,end) infinite}@keyframes cur{0%{opacity:1}50%{opacity:0}}
+.gl{opacity:0;animation:gl 5s infinite}
+@keyframes gl{0%,92%,100%{opacity:0;transform:translate(0,0)}93%{opacity:.9;transform:translate(5px,-1px)}94%{opacity:0}95%{opacity:.8;transform:translate(-5px,1px)}97%{opacity:0}}
+</style><filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="4" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter></defs>
+<rect x="12" y="12" width="986" height="86" fill="#ff1e3c"/>
+<rect x="2" y="2" width="986" height="86" fill="#0a0204" stroke="#f3dde0" stroke-width="4"/>
+<rect x="4" y="4" width="84" height="82" fill="#ff1e3c"/>
+<text class="sans" x="46" y="60" font-size="42" text-anchor="middle" fill="#0a0204">02</text>
+<text class="sans" x="114" y="68" font-size="54" letter-spacing="-1" fill="#ff1e3c">ABOUT</text>
+<text class="sans" x="111" y="65" font-size="54" letter-spacing="-1" fill="#ffffff">ABOUT</text>
+<text class="sans gl" x="104" y="65" font-size="54" letter-spacing="-1" fill="#ff1e3c">ABOUT</text>
+<text class="mono" x="956" y="34" font-size="13" font-weight="700" text-anchor="end" fill="#b3949a">[ 02 / 04 ]</text>
+<rect class="cur" x="940" y="48" width="18" height="26" fill="#ff1e3c"/>
+<rect x="2" y="2" width="986" height="86" filter="url(#grain)" opacity=".08"/>
+</svg>
